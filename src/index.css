@@ -1,0 +1,51 @@
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    background-image: radial-gradient(blueviolet,blue);
+    padding: 20px;
+    color: black;
+}
+.logo{
+    font-weight: bolder;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.search{
+    width: 60%;
+}
+.search input{
+    width: 55%;
+}
+input::placeholder{
+    padding: 10px;
+    font-weight: bold;
+}
+.cart{
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(white,pink);
+    padding: 10px;
+    color:black;
+}
+.items{
+    margin: 5px;
+}
+.img{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.img img{
+    height: 200px;
+    width: 200px;
+}
